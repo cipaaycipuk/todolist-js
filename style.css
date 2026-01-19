@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "SF Pro Display",
+        "SF Pro Text",
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #d7d7d7;
+    padding: 10px;
+}
+
+.card {
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 40px 30px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+    display: inline-block;
+    text-align: center;
+    padding: 6px 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #5b91e4, #8463d6, #ba66bb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding: auto;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.row input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 12px 10px;
+    font-size: 14px;
+}
+
+.desc-row {
+    background: #edeef0;
+    border-radius: 30px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.desc-row textarea {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+}
+
+.btn-add {
+    border: none;
+    background: linear-gradient(135deg, #7aaaf1, #a88ced, #df7ce1);
+    color: white;
+    font-weight: 700;
+    padding: 15px 35px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.tasks ul {
+    padding: 0;
+    list-style: none;
+    background: none;
+    box-shadow: none;
+}
+
+.tasks li {
+    background: #edeef0;
+    border-radius: 12px;
+    padding: 12px 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+}
+
+#todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tasks p {
+    font-size: 16px;
+}
+
+.title {
+    text-align: center;
+}
+
+.action {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+    justify-content: flex-end;
+}
+
+.editBtn {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.deleteBtn {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 8px 15px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.saveBtn {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 8px 15px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.cancelBtn {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 8px 15px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.editInput {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    background: transparent;
+    border: 2px solid rgb(209, 209, 209);
+    margin-bottom: 10px;
+}
+
+.inputDesc {
+    width: 100%;
+    min-height: 80px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border: 2px solid rgb(202, 201, 201);
+    resize: none;
+    background: transparent;
+    font-size: 14px;
+}
+
+.actionEdit {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+    justify-content: flex-end;
+}
+
+.todo-title {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.todo-desc {
+    margin: 0;
+    font-size: 14px;
+    color: #5f5f5f;
+}
